@@ -19,5 +19,6 @@ public class SmtpService {
         message.setFrom("");
 
         mailSender.send(message);
+
     }
 }
